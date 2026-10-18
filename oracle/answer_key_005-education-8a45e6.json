@@ -1,0 +1,294 @@
+{
+  "fixture_id": "005-education-8a45e6",
+  "generator": {
+    "version": "3.0-en",
+    "index": 5,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "P-02"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "legacy_unknown",
+      "label": "source access",
+      "keywords_any": [
+        "source",
+        "unknown"
+      ],
+      "refs": [
+        "P-04"
+      ],
+      "template": "source_access",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "hidden_requirement",
+      "label": "printed notices",
+      "keywords_any": [
+        "print",
+        "notice"
+      ],
+      "refs": [
+        "A-01"
+      ],
+      "template": "printed_notices",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "ambiguity",
+      "label": "migration volume",
+      "keywords_any": [
+        "volume",
+        "migration"
+      ],
+      "refs": [
+        "P-12"
+      ],
+      "template": "migration_volume",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-02",
+        "P-19"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M07",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "risk",
+      "label": "shared identity",
+      "keywords_any": [
+        "shared",
+        "account"
+      ],
+      "refs": [
+        "A-03"
+      ],
+      "template": "shared_identity",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "brownfield_signal",
+      "label": "calculation parity",
+      "keywords_any": [
+        "rounding",
+        "calculation"
+      ],
+      "refs": [
+        "P-05"
+      ],
+      "template": "calculation_parity",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "contradiction",
+      "label": "authentication",
+      "keywords_any": [
+        "authentication",
+        "offline"
+      ],
+      "refs": [
+        "A-04",
+        "P-10"
+      ],
+      "template": "authentication",
+      "severity": "critical"
+    },
+    {
+      "id": "M11",
+      "kind": "contradiction",
+      "label": "availability",
+      "keywords_any": [
+        "availability",
+        "outage"
+      ],
+      "refs": [
+        "A-05",
+        "P-08"
+      ],
+      "template": "availability",
+      "severity": "critical"
+    },
+    {
+      "id": "M12",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "A-06"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "ambiguity",
+      "label": "accessibility scope",
+      "keywords_any": [
+        "accessibility",
+        "scope"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "accessibility_scope",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "legacy_unknown",
+      "label": "data quality",
+      "keywords_any": [
+        "data quality",
+        "profiling"
+      ],
+      "refs": [
+        "P-13"
+      ],
+      "template": "data_quality",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-15"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-18"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "education",
+    "project": "Apprenticeship placement",
+    "client": "Apprenticeship placement commissioning partnership",
+    "persona": "product_backlog",
+    "department": "Epics and acceptance",
+    "register": "English",
+    "stack": ".NET and SQL Server",
+    "conditions_anchor": "P-09",
+    "n_anchors": 29,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

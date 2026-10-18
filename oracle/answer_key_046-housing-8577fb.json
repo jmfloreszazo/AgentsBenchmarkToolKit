@@ -1,0 +1,295 @@
+{
+  "fixture_id": "046-housing-8577fb",
+  "generator": {
+    "version": "3.0-en",
+    "index": 46,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "P-15"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "risk",
+      "label": "supplier exit",
+      "keywords_any": [
+        "exit",
+        "escrow"
+      ],
+      "refs": [
+        "P-07"
+      ],
+      "template": "supplier_exit",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "contradiction",
+      "label": "deadline",
+      "keywords_any": [
+        "deadline",
+        "rollout"
+      ],
+      "refs": [
+        "A-01",
+        "P-10"
+      ],
+      "template": "deadline",
+      "severity": "critical"
+    },
+    {
+      "id": "M04",
+      "kind": "scope_overlap",
+      "label": "adjacent platform",
+      "keywords_any": [
+        "adjacent",
+        "scope"
+      ],
+      "refs": [
+        "A-02"
+      ],
+      "template": "adjacent_platform",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "legacy_unknown",
+      "label": "data quality",
+      "keywords_any": [
+        "data quality",
+        "profiling"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "data_quality",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-09"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-03",
+        "A-04"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M09",
+      "kind": "hidden_requirement",
+      "label": "translation",
+      "keywords_any": [
+        "translation",
+        "language"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "translation",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-18"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "contradiction",
+      "label": "retention",
+      "keywords_any": [
+        "retention",
+        "delete"
+      ],
+      "refs": [
+        "A-05",
+        "A-06"
+      ],
+      "template": "retention",
+      "severity": "critical"
+    },
+    {
+      "id": "M13",
+      "kind": "ambiguity",
+      "label": "accessibility scope",
+      "keywords_any": [
+        "accessibility",
+        "scope"
+      ],
+      "refs": [
+        "P-08"
+      ],
+      "template": "accessibility_scope",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "contradiction",
+      "label": "ownership",
+      "keywords_any": [
+        "ownership",
+        "source"
+      ],
+      "refs": [
+        "A-07",
+        "P-11"
+      ],
+      "template": "ownership",
+      "severity": "critical"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-02"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-12"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-10"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "housing",
+    "project": "Shared-ownership staircasing",
+    "client": "Shared-ownership staircasing commissioning partnership",
+    "persona": "dialogue_record",
+    "department": "Agreed discussion points",
+    "register": "English",
+    "stack": "Java and PostgreSQL",
+    "conditions_anchor": "P-19",
+    "n_anchors": 30,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

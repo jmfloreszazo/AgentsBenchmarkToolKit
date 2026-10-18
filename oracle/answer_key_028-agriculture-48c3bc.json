@@ -1,0 +1,295 @@
+{
+  "fixture_id": "028-agriculture-48c3bc",
+  "generator": {
+    "version": "3.0-en",
+    "index": 28,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "P-13"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "ambiguity",
+      "label": "performance",
+      "keywords_any": [
+        "performance",
+        "latency"
+      ],
+      "refs": [
+        "P-05"
+      ],
+      "template": "performance",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "contradiction",
+      "label": "ownership",
+      "keywords_any": [
+        "ownership",
+        "source"
+      ],
+      "refs": [
+        "A-01",
+        "A-02"
+      ],
+      "template": "ownership",
+      "severity": "critical"
+    },
+    {
+      "id": "M05",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "risk",
+      "label": "backup restore",
+      "keywords_any": [
+        "restore",
+        "backup"
+      ],
+      "refs": [
+        "P-11"
+      ],
+      "template": "backup_restore",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "contradiction",
+      "label": "retention",
+      "keywords_any": [
+        "retention",
+        "delete"
+      ],
+      "refs": [
+        "A-03",
+        "A-04"
+      ],
+      "template": "retention",
+      "severity": "critical"
+    },
+    {
+      "id": "M09",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-05",
+        "P-06"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M10",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-17"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "contradiction",
+      "label": "availability",
+      "keywords_any": [
+        "availability",
+        "outage"
+      ],
+      "refs": [
+        "A-06",
+        "P-08"
+      ],
+      "template": "availability",
+      "severity": "critical"
+    },
+    {
+      "id": "M12",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "A-07"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-07"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "brownfield_signal",
+      "label": "parallel running",
+      "keywords_any": [
+        "parallel",
+        "legacy"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "parallel_running",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "P-12"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-19"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-04"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-10"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "agriculture",
+    "project": "Crop disease surveillance",
+    "client": "Crop disease surveillance commissioning partnership",
+    "persona": "risk_dossier",
+    "department": "Risk-bearing obligations",
+    "register": "English",
+    "stack": ".NET and SQL Server",
+    "conditions_anchor": "P-10",
+    "n_anchors": 30,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

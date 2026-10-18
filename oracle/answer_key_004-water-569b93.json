@@ -1,0 +1,292 @@
+{
+  "fixture_id": "004-water-569b93",
+  "generator": {
+    "version": "3.0-en",
+    "index": 4,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "hidden_requirement",
+      "label": "printed notices",
+      "keywords_any": [
+        "print",
+        "notice"
+      ],
+      "refs": [
+        "P-10"
+      ],
+      "template": "printed_notices",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-11"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "A-01"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "P-19"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "P-15"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "brownfield_signal",
+      "label": "parallel running",
+      "keywords_any": [
+        "parallel",
+        "legacy"
+      ],
+      "refs": [
+        "P-02"
+      ],
+      "template": "parallel_running",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "risk",
+      "label": "backup restore",
+      "keywords_any": [
+        "restore",
+        "backup"
+      ],
+      "refs": [
+        "A-02"
+      ],
+      "template": "backup_restore",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "P-13"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "ambiguity",
+      "label": "migration volume",
+      "keywords_any": [
+        "volume",
+        "migration"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "migration_volume",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-03",
+        "A-04"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M13",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "risk",
+      "label": "shared identity",
+      "keywords_any": [
+        "shared",
+        "account"
+      ],
+      "refs": [
+        "P-18"
+      ],
+      "template": "shared_identity",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "scope_overlap",
+      "label": "adjacent platform",
+      "keywords_any": [
+        "adjacent",
+        "scope"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "adjacent_platform",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-07"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-17"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-05"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-06"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "water",
+    "project": "Leak response dispatch",
+    "client": "Leak response dispatch commissioning partnership",
+    "persona": "legal_schedule",
+    "department": "Articles of performance",
+    "register": "English",
+    "stack": ".NET and SQL Server",
+    "conditions_anchor": "P-08",
+    "n_anchors": 27,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

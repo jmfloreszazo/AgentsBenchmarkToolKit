@@ -1,0 +1,294 @@
+{
+  "fixture_id": "097-planning-bcf866",
+  "generator": {
+    "version": "3.0-en",
+    "index": 97,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "legacy_unknown",
+      "label": "source access",
+      "keywords_any": [
+        "source",
+        "unknown"
+      ],
+      "refs": [
+        "P-13"
+      ],
+      "template": "source_access",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "P-07"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "A-01"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "ambiguity",
+      "label": "accessibility scope",
+      "keywords_any": [
+        "accessibility",
+        "scope"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "accessibility_scope",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "risk",
+      "label": "supplier exit",
+      "keywords_any": [
+        "exit",
+        "escrow"
+      ],
+      "refs": [
+        "P-10"
+      ],
+      "template": "supplier_exit",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "contradiction",
+      "label": "deadline",
+      "keywords_any": [
+        "deadline",
+        "rollout"
+      ],
+      "refs": [
+        "A-02",
+        "P-18"
+      ],
+      "template": "deadline",
+      "severity": "critical"
+    },
+    {
+      "id": "M08",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "A-03"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "legacy_unknown",
+      "label": "data quality",
+      "keywords_any": [
+        "data quality",
+        "profiling"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "data_quality",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "risk",
+      "label": "backup restore",
+      "keywords_any": [
+        "restore",
+        "backup"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "backup_restore",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "risk",
+      "label": "shared identity",
+      "keywords_any": [
+        "shared",
+        "account"
+      ],
+      "refs": [
+        "P-17"
+      ],
+      "template": "shared_identity",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "hidden_requirement",
+      "label": "translation",
+      "keywords_any": [
+        "translation",
+        "language"
+      ],
+      "refs": [
+        "A-04"
+      ],
+      "template": "translation",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-02"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "contradiction",
+      "label": "authentication",
+      "keywords_any": [
+        "authentication",
+        "offline"
+      ],
+      "refs": [
+        "A-05",
+        "P-12"
+      ],
+      "template": "authentication",
+      "severity": "critical"
+    },
+    {
+      "id": "M15",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-06",
+        "P-11"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-15"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-09"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "planning",
+    "project": "Brownfield land remediation",
+    "client": "Brownfield land remediation commissioning partnership",
+    "persona": "operations_manual",
+    "department": "Runbook requirements",
+    "register": "English",
+    "stack": "JavaScript and document storage",
+    "conditions_anchor": "P-19",
+    "n_anchors": 29,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

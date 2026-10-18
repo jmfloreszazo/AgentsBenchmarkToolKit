@@ -1,0 +1,294 @@
+{
+  "fixture_id": "026-housing-19861f",
+  "generator": {
+    "version": "3.0-en",
+    "index": 26,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-01",
+        "P-11"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M02",
+      "kind": "brownfield_signal",
+      "label": "parallel running",
+      "keywords_any": [
+        "parallel",
+        "legacy"
+      ],
+      "refs": [
+        "P-09"
+      ],
+      "template": "parallel_running",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-12"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "legacy_unknown",
+      "label": "source access",
+      "keywords_any": [
+        "source",
+        "unknown"
+      ],
+      "refs": [
+        "A-02"
+      ],
+      "template": "source_access",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "hidden_requirement",
+      "label": "reconciliation",
+      "keywords_any": [
+        "reconciliation",
+        "manual"
+      ],
+      "refs": [
+        "P-15"
+      ],
+      "template": "reconciliation",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-17"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "brownfield_signal",
+      "label": "calculation parity",
+      "keywords_any": [
+        "rounding",
+        "calculation"
+      ],
+      "refs": [
+        "P-13"
+      ],
+      "template": "calculation_parity",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "A-03"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "P-02"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "P-19"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "contradiction",
+      "label": "deadline",
+      "keywords_any": [
+        "deadline",
+        "rollout"
+      ],
+      "refs": [
+        "A-04",
+        "P-06"
+      ],
+      "template": "deadline",
+      "severity": "critical"
+    },
+    {
+      "id": "M12",
+      "kind": "contradiction",
+      "label": "availability",
+      "keywords_any": [
+        "availability",
+        "outage"
+      ],
+      "refs": [
+        "A-05",
+        "A-06"
+      ],
+      "template": "availability",
+      "severity": "critical"
+    },
+    {
+      "id": "M13",
+      "kind": "hidden_requirement",
+      "label": "translation",
+      "keywords_any": [
+        "translation",
+        "language"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "translation",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "ambiguity",
+      "label": "performance",
+      "keywords_any": [
+        "performance",
+        "latency"
+      ],
+      "refs": [
+        "P-08"
+      ],
+      "template": "performance",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-07"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-04"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "housing",
+    "project": "Housing repairs triage",
+    "client": "Housing repairs triage commissioning partnership",
+    "persona": "operations_manual",
+    "department": "Runbook requirements",
+    "register": "English",
+    "stack": "Python and PostgreSQL",
+    "conditions_anchor": "P-18",
+    "n_anchors": 29,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

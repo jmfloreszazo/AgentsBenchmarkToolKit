@@ -1,0 +1,294 @@
+{
+  "fixture_id": "073-commerce-88668b",
+  "generator": {
+    "version": "3.0-en",
+    "index": 73,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "P-12"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "brownfield_signal",
+      "label": "parallel running",
+      "keywords_any": [
+        "parallel",
+        "legacy"
+      ],
+      "refs": [
+        "P-15"
+      ],
+      "template": "parallel_running",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-08"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "contradiction",
+      "label": "retention",
+      "keywords_any": [
+        "retention",
+        "delete"
+      ],
+      "refs": [
+        "A-01",
+        "A-02"
+      ],
+      "template": "retention",
+      "severity": "critical"
+    },
+    {
+      "id": "M05",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "contradiction",
+      "label": "ownership",
+      "keywords_any": [
+        "ownership",
+        "source"
+      ],
+      "refs": [
+        "A-03",
+        "P-14"
+      ],
+      "template": "ownership",
+      "severity": "critical"
+    },
+    {
+      "id": "M07",
+      "kind": "risk",
+      "label": "backup restore",
+      "keywords_any": [
+        "restore",
+        "backup"
+      ],
+      "refs": [
+        "P-02"
+      ],
+      "template": "backup_restore",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "contradiction",
+      "label": "availability",
+      "keywords_any": [
+        "availability",
+        "outage"
+      ],
+      "refs": [
+        "A-04",
+        "A-05"
+      ],
+      "template": "availability",
+      "severity": "critical"
+    },
+    {
+      "id": "M09",
+      "kind": "legacy_unknown",
+      "label": "data quality",
+      "keywords_any": [
+        "data quality",
+        "profiling"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "data_quality",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "ambiguity",
+      "label": "migration volume",
+      "keywords_any": [
+        "volume",
+        "migration"
+      ],
+      "refs": [
+        "P-19"
+      ],
+      "template": "migration_volume",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "hidden_requirement",
+      "label": "reconciliation",
+      "keywords_any": [
+        "reconciliation",
+        "manual"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "reconciliation",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "A-06"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "hidden_requirement",
+      "label": "printed notices",
+      "keywords_any": [
+        "print",
+        "notice"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "printed_notices",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "scope_overlap",
+      "label": "adjacent platform",
+      "keywords_any": [
+        "adjacent",
+        "scope"
+      ],
+      "refs": [
+        "P-13"
+      ],
+      "template": "adjacent_platform",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "brownfield_signal",
+      "label": "calculation parity",
+      "keywords_any": [
+        "rounding",
+        "calculation"
+      ],
+      "refs": [
+        "P-07"
+      ],
+      "template": "calculation_parity",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-18"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-10"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "commerce",
+    "project": "Local supplier marketplace",
+    "client": "Local supplier marketplace commissioning partnership",
+    "persona": "engineering_spec",
+    "department": "System interfaces",
+    "register": "English",
+    "stack": "PHP and MariaDB",
+    "conditions_anchor": "P-09",
+    "n_anchors": 29,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "fixture_id": "029-culture-c69b45",
+  "generator": {
+    "version": "3.0-en",
+    "index": 29,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "P-19"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "hidden_requirement",
+      "label": "translation",
+      "keywords_any": [
+        "translation",
+        "language"
+      ],
+      "refs": [
+        "P-10"
+      ],
+      "template": "translation",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "brownfield_signal",
+      "label": "parallel running",
+      "keywords_any": [
+        "parallel",
+        "legacy"
+      ],
+      "refs": [
+        "A-01"
+      ],
+      "template": "parallel_running",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "legacy_unknown",
+      "label": "source access",
+      "keywords_any": [
+        "source",
+        "unknown"
+      ],
+      "refs": [
+        "P-11"
+      ],
+      "template": "source_access",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "hidden_requirement",
+      "label": "reconciliation",
+      "keywords_any": [
+        "reconciliation",
+        "manual"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "reconciliation",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "contradiction",
+      "label": "availability",
+      "keywords_any": [
+        "availability",
+        "outage"
+      ],
+      "refs": [
+        "A-02",
+        "P-09"
+      ],
+      "template": "availability",
+      "severity": "critical"
+    },
+    {
+      "id": "M08",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "A-03"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "risk",
+      "label": "backup restore",
+      "keywords_any": [
+        "restore",
+        "backup"
+      ],
+      "refs": [
+        "P-07"
+      ],
+      "template": "backup_restore",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "brownfield_signal",
+      "label": "calculation parity",
+      "keywords_any": [
+        "rounding",
+        "calculation"
+      ],
+      "refs": [
+        "P-02"
+      ],
+      "template": "calculation_parity",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "A-04"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "ambiguity",
+      "label": "migration volume",
+      "keywords_any": [
+        "volume",
+        "migration"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "migration_volume",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "ambiguity",
+      "label": "accessibility scope",
+      "keywords_any": [
+        "accessibility",
+        "scope"
+      ],
+      "refs": [
+        "P-17"
+      ],
+      "template": "accessibility_scope",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "legacy_unknown",
+      "label": "data quality",
+      "keywords_any": [
+        "data quality",
+        "profiling"
+      ],
+      "refs": [
+        "P-08"
+      ],
+      "template": "data_quality",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-05"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-13"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-05"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-06"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "culture",
+    "project": "Performing arts residencies",
+    "client": "Performing arts residencies commissioning partnership",
+    "persona": "dialogue_record",
+    "department": "Agreed discussion points",
+    "register": "English",
+    "stack": "COBOL and DB2",
+    "conditions_anchor": "P-20",
+    "n_anchors": 27,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

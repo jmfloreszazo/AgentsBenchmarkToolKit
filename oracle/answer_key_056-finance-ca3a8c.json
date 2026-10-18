@@ -1,0 +1,295 @@
+{
+  "fixture_id": "056-finance-ca3a8c",
+  "generator": {
+    "version": "3.0-en",
+    "index": 56,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "contradiction",
+      "label": "deadline",
+      "keywords_any": [
+        "deadline",
+        "rollout"
+      ],
+      "refs": [
+        "A-01",
+        "P-09"
+      ],
+      "template": "deadline",
+      "severity": "critical"
+    },
+    {
+      "id": "M02",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-02",
+        "P-11"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M04",
+      "kind": "risk",
+      "label": "shared identity",
+      "keywords_any": [
+        "shared",
+        "account"
+      ],
+      "refs": [
+        "A-03"
+      ],
+      "template": "shared_identity",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "contradiction",
+      "label": "ownership",
+      "keywords_any": [
+        "ownership",
+        "source"
+      ],
+      "refs": [
+        "A-04",
+        "P-03"
+      ],
+      "template": "ownership",
+      "severity": "critical"
+    },
+    {
+      "id": "M07",
+      "kind": "risk",
+      "label": "backup restore",
+      "keywords_any": [
+        "restore",
+        "backup"
+      ],
+      "refs": [
+        "P-12"
+      ],
+      "template": "backup_restore",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "contradiction",
+      "label": "retention",
+      "keywords_any": [
+        "retention",
+        "delete"
+      ],
+      "refs": [
+        "A-05",
+        "A-06"
+      ],
+      "template": "retention",
+      "severity": "critical"
+    },
+    {
+      "id": "M09",
+      "kind": "risk",
+      "label": "supplier exit",
+      "keywords_any": [
+        "exit",
+        "escrow"
+      ],
+      "refs": [
+        "P-18"
+      ],
+      "template": "supplier_exit",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "P-17"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "ambiguity",
+      "label": "accessibility scope",
+      "keywords_any": [
+        "accessibility",
+        "scope"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "accessibility_scope",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "A-07"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-13"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "P-05"
+      ],
+      "template": "training",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-06"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-15"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-10"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "finance",
+    "project": "Participatory budgeting",
+    "client": "Participatory budgeting commissioning partnership",
+    "persona": "engineering_spec",
+    "department": "System interfaces",
+    "register": "English",
+    "stack": "Python and PostgreSQL",
+    "conditions_anchor": "P-08",
+    "n_anchors": 30,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

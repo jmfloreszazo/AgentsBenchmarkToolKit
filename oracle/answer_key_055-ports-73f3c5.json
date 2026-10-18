@@ -1,0 +1,295 @@
+{
+  "fixture_id": "055-ports-73f3c5",
+  "generator": {
+    "version": "3.0-en",
+    "index": 55,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "P-19"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "brownfield_signal",
+      "label": "parallel running",
+      "keywords_any": [
+        "parallel",
+        "legacy"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "parallel_running",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "P-17"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "ambiguity",
+      "label": "accessibility scope",
+      "keywords_any": [
+        "accessibility",
+        "scope"
+      ],
+      "refs": [
+        "A-01"
+      ],
+      "template": "accessibility_scope",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-02",
+        "P-10"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M06",
+      "kind": "legacy_unknown",
+      "label": "source access",
+      "keywords_any": [
+        "source",
+        "unknown"
+      ],
+      "refs": [
+        "P-05"
+      ],
+      "template": "source_access",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "A-03"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "contradiction",
+      "label": "deadline",
+      "keywords_any": [
+        "deadline",
+        "rollout"
+      ],
+      "refs": [
+        "A-04",
+        "P-11"
+      ],
+      "template": "deadline",
+      "severity": "critical"
+    },
+    {
+      "id": "M10",
+      "kind": "hidden_requirement",
+      "label": "printed notices",
+      "keywords_any": [
+        "print",
+        "notice"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "printed_notices",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "contradiction",
+      "label": "ownership",
+      "keywords_any": [
+        "ownership",
+        "source"
+      ],
+      "refs": [
+        "A-05",
+        "P-15"
+      ],
+      "template": "ownership",
+      "severity": "critical"
+    },
+    {
+      "id": "M12",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "A-06"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "ambiguity",
+      "label": "performance",
+      "keywords_any": [
+        "performance",
+        "latency"
+      ],
+      "refs": [
+        "P-08"
+      ],
+      "template": "performance",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "contradiction",
+      "label": "availability",
+      "keywords_any": [
+        "availability",
+        "outage"
+      ],
+      "refs": [
+        "A-07",
+        "P-18"
+      ],
+      "template": "availability",
+      "severity": "critical"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-12"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-01"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-10"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "ports",
+    "project": "Shore power reservations",
+    "client": "Shore power reservations commissioning partnership",
+    "persona": "outcome_brief",
+    "department": "What success means",
+    "register": "English",
+    "stack": "Java and PostgreSQL",
+    "conditions_anchor": "P-14",
+    "n_anchors": 30,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

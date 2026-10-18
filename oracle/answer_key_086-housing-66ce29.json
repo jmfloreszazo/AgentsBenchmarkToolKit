@@ -1,0 +1,296 @@
+{
+  "fixture_id": "086-housing-66ce29",
+  "generator": {
+    "version": "3.0-en",
+    "index": 86,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-01",
+        "P-13"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M02",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "contradiction",
+      "label": "authentication",
+      "keywords_any": [
+        "authentication",
+        "offline"
+      ],
+      "refs": [
+        "A-02",
+        "A-03"
+      ],
+      "template": "authentication",
+      "severity": "critical"
+    },
+    {
+      "id": "M05",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "contradiction",
+      "label": "ownership",
+      "keywords_any": [
+        "ownership",
+        "source"
+      ],
+      "refs": [
+        "A-04",
+        "P-07"
+      ],
+      "template": "ownership",
+      "severity": "critical"
+    },
+    {
+      "id": "M07",
+      "kind": "brownfield_signal",
+      "label": "calculation parity",
+      "keywords_any": [
+        "rounding",
+        "calculation"
+      ],
+      "refs": [
+        "P-08"
+      ],
+      "template": "calculation_parity",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "A-05"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "contradiction",
+      "label": "retention",
+      "keywords_any": [
+        "retention",
+        "delete"
+      ],
+      "refs": [
+        "A-06",
+        "P-05"
+      ],
+      "template": "retention",
+      "severity": "critical"
+    },
+    {
+      "id": "M10",
+      "kind": "brownfield_signal",
+      "label": "parallel running",
+      "keywords_any": [
+        "parallel",
+        "legacy"
+      ],
+      "refs": [
+        "P-02"
+      ],
+      "template": "parallel_running",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "contradiction",
+      "label": "deadline",
+      "keywords_any": [
+        "deadline",
+        "rollout"
+      ],
+      "refs": [
+        "A-07",
+        "P-17"
+      ],
+      "template": "deadline",
+      "severity": "critical"
+    },
+    {
+      "id": "M12",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "A-08"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "risk",
+      "label": "supplier exit",
+      "keywords_any": [
+        "exit",
+        "escrow"
+      ],
+      "refs": [
+        "P-12"
+      ],
+      "template": "supplier_exit",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "hidden_requirement",
+      "label": "reconciliation",
+      "keywords_any": [
+        "reconciliation",
+        "manual"
+      ],
+      "refs": [
+        "P-09"
+      ],
+      "template": "reconciliation",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "support",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-11"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-03"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-10"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-11"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "housing",
+    "project": "Rental deposit mediation",
+    "client": "Rental deposit mediation commissioning partnership",
+    "persona": "user_stories",
+    "department": "Service stories",
+    "register": "English",
+    "stack": "COBOL and DB2",
+    "conditions_anchor": "P-18",
+    "n_anchors": 31,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

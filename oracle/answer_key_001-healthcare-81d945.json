@@ -1,0 +1,293 @@
+{
+  "fixture_id": "001-healthcare-81d945",
+  "generator": {
+    "version": "3.0-en",
+    "index": 1,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "P-10"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "legacy_unknown",
+      "label": "data quality",
+      "keywords_any": [
+        "data quality",
+        "profiling"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "data_quality",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "A-01"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "P-11"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "contradiction",
+      "label": "ownership",
+      "keywords_any": [
+        "ownership",
+        "source"
+      ],
+      "refs": [
+        "A-02",
+        "P-13"
+      ],
+      "template": "ownership",
+      "severity": "critical"
+    },
+    {
+      "id": "M07",
+      "kind": "risk",
+      "label": "supplier exit",
+      "keywords_any": [
+        "exit",
+        "escrow"
+      ],
+      "refs": [
+        "P-08"
+      ],
+      "template": "supplier_exit",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "A-03"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "contradiction",
+      "label": "deadline",
+      "keywords_any": [
+        "deadline",
+        "rollout"
+      ],
+      "refs": [
+        "A-04",
+        "P-07"
+      ],
+      "template": "deadline",
+      "severity": "critical"
+    },
+    {
+      "id": "M10",
+      "kind": "ambiguity",
+      "label": "migration volume",
+      "keywords_any": [
+        "volume",
+        "migration"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "migration_volume",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "risk",
+      "label": "backup restore",
+      "keywords_any": [
+        "restore",
+        "backup"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "backup_restore",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "A-05"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "brownfield_signal",
+      "label": "parallel running",
+      "keywords_any": [
+        "parallel",
+        "legacy"
+      ],
+      "refs": [
+        "P-15"
+      ],
+      "template": "parallel_running",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "risk",
+      "label": "shared identity",
+      "keywords_any": [
+        "shared",
+        "account"
+      ],
+      "refs": [
+        "P-17"
+      ],
+      "template": "shared_identity",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "P-18"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-19"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-12"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-06"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "healthcare",
+    "project": "Hospital bed coordination",
+    "client": "Hospital bed coordination commissioning partnership",
+    "persona": "outcome_brief",
+    "department": "What success means",
+    "register": "English",
+    "stack": "Python and PostgreSQL",
+    "conditions_anchor": "P-02",
+    "n_anchors": 28,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "fixture_id": "090-waste-699ebe",
+  "generator": {
+    "version": "3.0-en",
+    "index": 90,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "hidden_requirement",
+      "label": "reconciliation",
+      "keywords_any": [
+        "reconciliation",
+        "manual"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "reconciliation",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "legacy_unknown",
+      "label": "source access",
+      "keywords_any": [
+        "source",
+        "unknown"
+      ],
+      "refs": [
+        "P-17"
+      ],
+      "template": "source_access",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "scope_overlap",
+      "label": "adjacent platform",
+      "keywords_any": [
+        "adjacent",
+        "scope"
+      ],
+      "refs": [
+        "P-18"
+      ],
+      "template": "adjacent_platform",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "hidden_requirement",
+      "label": "training",
+      "keywords_any": [
+        "training",
+        "night"
+      ],
+      "refs": [
+        "A-01"
+      ],
+      "template": "training",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "contradiction",
+      "label": "retention",
+      "keywords_any": [
+        "retention",
+        "delete"
+      ],
+      "refs": [
+        "A-02",
+        "P-08"
+      ],
+      "template": "retention",
+      "severity": "critical"
+    },
+    {
+      "id": "M06",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "P-05"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "contradiction",
+      "label": "availability",
+      "keywords_any": [
+        "availability",
+        "outage"
+      ],
+      "refs": [
+        "A-03",
+        "P-09"
+      ],
+      "template": "availability",
+      "severity": "critical"
+    },
+    {
+      "id": "M08",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "A-04"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "P-04"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "hidden_requirement",
+      "label": "printed notices",
+      "keywords_any": [
+        "print",
+        "notice"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "printed_notices",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-05",
+        "P-03"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M12",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "A-06"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "P-07"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "risk",
+      "label": "backup restore",
+      "keywords_any": [
+        "restore",
+        "backup"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "backup_restore",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "ambiguity",
+      "label": "migration volume",
+      "keywords_any": [
+        "volume",
+        "migration"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "migration_volume",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-10"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-20"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "waste",
+    "project": "Construction material exchange",
+    "client": "Construction material exchange commissioning partnership",
+    "persona": "engineering_spec",
+    "department": "System interfaces",
+    "register": "English",
+    "stack": "Java and PostgreSQL",
+    "conditions_anchor": "P-13",
+    "n_anchors": 29,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

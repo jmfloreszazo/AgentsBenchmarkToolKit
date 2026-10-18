@@ -1,0 +1,293 @@
+{
+  "fixture_id": "079-sport-d9fe80",
+  "generator": {
+    "version": "3.0-en",
+    "index": 79,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "P-15"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "P-10"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "scope_overlap",
+      "label": "identity rebuild",
+      "keywords_any": [
+        "identity",
+        "scope"
+      ],
+      "refs": [
+        "A-01"
+      ],
+      "template": "identity_rebuild",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "hidden_requirement",
+      "label": "reconciliation",
+      "keywords_any": [
+        "reconciliation",
+        "manual"
+      ],
+      "refs": [
+        "P-08"
+      ],
+      "template": "reconciliation",
+      "severity": "major"
+    },
+    {
+      "id": "M06",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "P-04"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "contradiction",
+      "label": "authentication",
+      "keywords_any": [
+        "authentication",
+        "offline"
+      ],
+      "refs": [
+        "A-02",
+        "A-03"
+      ],
+      "template": "authentication",
+      "severity": "critical"
+    },
+    {
+      "id": "M09",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-04",
+        "P-17"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M10",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "P-02"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "hidden_requirement",
+      "label": "translation",
+      "keywords_any": [
+        "translation",
+        "language"
+      ],
+      "refs": [
+        "P-07"
+      ],
+      "template": "translation",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "risk",
+      "label": "supplier exit",
+      "keywords_any": [
+        "exit",
+        "escrow"
+      ],
+      "refs": [
+        "A-05"
+      ],
+      "template": "supplier_exit",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "legacy_unknown",
+      "label": "data quality",
+      "keywords_any": [
+        "data quality",
+        "profiling"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "data_quality",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "scope_overlap",
+      "label": "adjacent platform",
+      "keywords_any": [
+        "adjacent",
+        "scope"
+      ],
+      "refs": [
+        "P-05"
+      ],
+      "template": "adjacent_platform",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "ambiguity",
+      "label": "accessibility scope",
+      "keywords_any": [
+        "accessibility",
+        "scope"
+      ],
+      "refs": [
+        "P-09"
+      ],
+      "template": "accessibility_scope",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-13"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-01"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-06"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-07"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "sport",
+    "project": "Anti-doping sample logistics",
+    "client": "Anti-doping sample logistics commissioning partnership",
+    "persona": "work_order",
+    "department": "Work instructions",
+    "register": "English",
+    "stack": "Python and PostgreSQL",
+    "conditions_anchor": "P-16",
+    "n_anchors": 28,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "fixture_id": "013-commerce-9d17c7",
+  "generator": {
+    "version": "3.0-en",
+    "index": 13,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "ambiguity",
+      "label": "support",
+      "keywords_any": [
+        "support",
+        "hours"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "support",
+      "severity": "major"
+    },
+    {
+      "id": "M02",
+      "kind": "contradiction",
+      "label": "availability",
+      "keywords_any": [
+        "availability",
+        "outage"
+      ],
+      "refs": [
+        "A-01",
+        "P-08"
+      ],
+      "template": "availability",
+      "severity": "critical"
+    },
+    {
+      "id": "M03",
+      "kind": "hidden_requirement",
+      "label": "translation",
+      "keywords_any": [
+        "translation",
+        "language"
+      ],
+      "refs": [
+        "P-03"
+      ],
+      "template": "translation",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "A-02"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "contradiction",
+      "label": "authentication",
+      "keywords_any": [
+        "authentication",
+        "offline"
+      ],
+      "refs": [
+        "A-03",
+        "P-02"
+      ],
+      "template": "authentication",
+      "severity": "critical"
+    },
+    {
+      "id": "M06",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-04"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M07",
+      "kind": "contradiction",
+      "label": "retention",
+      "keywords_any": [
+        "retention",
+        "delete"
+      ],
+      "refs": [
+        "A-04",
+        "P-09"
+      ],
+      "template": "retention",
+      "severity": "critical"
+    },
+    {
+      "id": "M08",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-05",
+        "A-06"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M09",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "P-18"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    },
+    {
+      "id": "M10",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "brownfield_signal",
+      "label": "calculation parity",
+      "keywords_any": [
+        "rounding",
+        "calculation"
+      ],
+      "refs": [
+        "P-15"
+      ],
+      "template": "calculation_parity",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "contradiction",
+      "label": "ownership",
+      "keywords_any": [
+        "ownership",
+        "source"
+      ],
+      "refs": [
+        "A-07",
+        "A-08"
+      ],
+      "template": "ownership",
+      "severity": "critical"
+    },
+    {
+      "id": "M13",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "P-06"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "ambiguity",
+      "label": "performance",
+      "keywords_any": [
+        "performance",
+        "latency"
+      ],
+      "refs": [
+        "P-07"
+      ],
+      "template": "performance",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "scope_overlap",
+      "label": "adjacent platform",
+      "keywords_any": [
+        "adjacent",
+        "scope"
+      ],
+      "refs": [
+        "P-19"
+      ],
+      "template": "adjacent_platform",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-05"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-20"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-10"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-11"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "commerce",
+    "project": "Street market licences",
+    "client": "Street market licences commissioning partnership",
+    "persona": "milestone_plan",
+    "department": "Delivery checkpoints",
+    "register": "English",
+    "stack": ".NET and SQL Server",
+    "conditions_anchor": "P-17",
+    "n_anchors": 31,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

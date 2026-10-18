@@ -1,0 +1,715 @@
+{
+  "generator_version": "3.0-en",
+  "language": "en",
+  "test_cases": 100,
+  "calibration_cases": 1,
+  "cases": [
+    {
+      "id": "000-healthcare-b28fe3",
+      "role": "calibration",
+      "rfp_sha256": "b060f5fc114301c79222970f30d12253b9c227c4db5fbf9f9478cca876ed04e1",
+      "project": "Cross-agency infrastructure permit triage",
+      "persona": "formal_tender"
+    },
+    {
+      "id": "001-healthcare-81d945",
+      "role": "test",
+      "rfp_sha256": "26a116bf8036677a27687b40683a24d93bcb6db130c31094d8661bdd5fec7bd0",
+      "project": "Hospital bed coordination",
+      "persona": "outcome_brief"
+    },
+    {
+      "id": "002-transport-4c0e37",
+      "role": "test",
+      "rfp_sha256": "9195191dffda0ddecd017c773125c1206d4700732309e0eccab4898b5f08e70c",
+      "project": "Bus depot charging",
+      "persona": "engineering_spec"
+    },
+    {
+      "id": "003-energy-b69506",
+      "role": "test",
+      "rfp_sha256": "781fa67e4ed018c02b124a122e1405fa62d3e84516d49afa986c32b4617b2c0f",
+      "project": "District heat balancing",
+      "persona": "service_charter"
+    },
+    {
+      "id": "004-water-569b93",
+      "role": "test",
+      "rfp_sha256": "c8467fac648077a7e05d40b0721fa9e5d8dd291f78bdbdf793da1362ac5ef90d",
+      "project": "Leak response dispatch",
+      "persona": "legal_schedule"
+    },
+    {
+      "id": "005-education-8a45e6",
+      "role": "test",
+      "rfp_sha256": "88c5842943ce950b843b5572a7c7a4c5d276366b2383ae88f0391501464873a5",
+      "project": "Apprenticeship placement",
+      "persona": "product_backlog"
+    },
+    {
+      "id": "006-housing-1ade3c",
+      "role": "test",
+      "rfp_sha256": "88d7915a13ea68873507d3eb57f230cd37dd6a6c5ada24d7d8b7ee2b992bd626",
+      "project": "Emergency shelter intake",
+      "persona": "questionnaire"
+    },
+    {
+      "id": "007-justice-5dbb11",
+      "role": "test",
+      "rfp_sha256": "64fe8fd197fd90721a5f6443afc31380c31da57306b8c3ff41bcbdcb2058de1d",
+      "project": "Court interpreter booking",
+      "persona": "decision_memo"
+    },
+    {
+      "id": "008-agriculture-81651d",
+      "role": "test",
+      "rfp_sha256": "a2e07bb6a2196ed9cf211c7e0210185932db6365faad64f8a92f9a8f82b34997",
+      "project": "Livestock movement certification",
+      "persona": "work_order"
+    },
+    {
+      "id": "009-culture-1f3048",
+      "role": "test",
+      "rfp_sha256": "d039509f86d7a05996d1137c5a3758acaf887a3dcb890381d2ffb42b0d6ce3cc",
+      "project": "Museum object loans",
+      "persona": "operations_manual"
+    },
+    {
+      "id": "010-waste-75f45a",
+      "role": "test",
+      "rfp_sha256": "c6c9f5c8196210359280f292335626548139cf57f02446ad2d03314f4b3947bf",
+      "project": "Hazardous waste manifests",
+      "persona": "table_matrix"
+    },
+    {
+      "id": "011-public_safety-2ec531",
+      "role": "test",
+      "rfp_sha256": "e6765dfd756db490aaff1a900a6a180200f6da61039894360253fb518c5dd5ef",
+      "project": "Wildfire resource staging",
+      "persona": "risk_dossier"
+    },
+    {
+      "id": "012-social_care-c036d1",
+      "role": "test",
+      "rfp_sha256": "e1355ac51f66aa8e8e241ab58d3934eedb91e6cc28506f702029191912132a39",
+      "project": "Home-care rostering",
+      "persona": "dialogue_record"
+    },
+    {
+      "id": "013-commerce-9d17c7",
+      "role": "test",
+      "rfp_sha256": "d9789f4840a9afef0473b6d050ef83b7e2d703f899143ade47184f0fca020f4e",
+      "project": "Street market licences",
+      "persona": "milestone_plan"
+    },
+    {
+      "id": "014-science-791434",
+      "role": "test",
+      "rfp_sha256": "aea13a8136cc7bed8832e5f3832e03bd10eb165128c5be094e11f9a558f858ec",
+      "project": "Biobank sample access",
+      "persona": "interface_contract"
+    },
+    {
+      "id": "015-ports-11433a",
+      "role": "test",
+      "rfp_sha256": "fe3e2c23a397bef33e01399c875d492d99129f6554be26fbfc3fec8cdafbdd2c",
+      "project": "Harbour pilot assignment",
+      "persona": "assurance_case"
+    },
+    {
+      "id": "016-finance-ff6aca",
+      "role": "test",
+      "rfp_sha256": "3289939511cbdb0998da1da4747dc469a7d7294ccf4085a68eedbe8e2fd1fc71",
+      "project": "Municipal bond obligations",
+      "persona": "field_notes"
+    },
+    {
+      "id": "017-planning-8c8b33",
+      "role": "test",
+      "rfp_sha256": "6170fa9baa296cd052a44b59498d2df06acce904c0f95e2e689f678a962b230f",
+      "project": "Tree protection consents",
+      "persona": "board_paper"
+    },
+    {
+      "id": "018-tourism-b5526f",
+      "role": "test",
+      "rfp_sha256": "547de6426fed9be1f961d3662a0f104ad179129331f7d33a0fa6547d94ae8944",
+      "project": "Accessible visitor itineraries",
+      "persona": "user_stories"
+    },
+    {
+      "id": "019-sport-f05a08",
+      "role": "test",
+      "rfp_sha256": "804895887602242915032c957d8fd912ad125ab7e001fc313c34265fede9b2ec",
+      "project": "Swimming lesson allocation",
+      "persona": "migration_playbook"
+    },
+    {
+      "id": "020-libraries-e27b9b",
+      "role": "test",
+      "rfp_sha256": "c1ad0a57f651fc0d2dbed154f34870414fbdbfe9dec0e3f3b6217e89af64333d",
+      "project": "Mobile library routing",
+      "persona": "formal_tender"
+    },
+    {
+      "id": "021-healthcare-7c8ed3",
+      "role": "test",
+      "rfp_sha256": "a575a27a4694171ff63cde6c0a0eee6d8fea6ed22dce26da720fdcae57074696",
+      "project": "Regional vaccination booking",
+      "persona": "legal_schedule"
+    },
+    {
+      "id": "022-transport-102fcb",
+      "role": "test",
+      "rfp_sha256": "9bf7dbe3a08f24c81fb275b3a88afc0e6a2d88f10016499f6566d237d5993d18",
+      "project": "Rail possession planning",
+      "persona": "product_backlog"
+    },
+    {
+      "id": "023-energy-ddcc1c",
+      "role": "test",
+      "rfp_sha256": "8e57c646d6d98ac50eb6cbc67f7e45fbb6ea548290f163086d240ee03db89134",
+      "project": "Community solar settlement",
+      "persona": "questionnaire"
+    },
+    {
+      "id": "024-water-03e5ed",
+      "role": "test",
+      "rfp_sha256": "0f2e0774535e2385c583f3250745dd9ed935a4184f8f4042f0d73097bcba4667",
+      "project": "Drinking-water sampling",
+      "persona": "decision_memo"
+    },
+    {
+      "id": "025-education-3d78de",
+      "role": "test",
+      "rfp_sha256": "d95d05b390ca6ad1d8bfb61fb6e52d2e351e654515ab6b112d7864303a4c8827",
+      "project": "Special-education provision",
+      "persona": "work_order"
+    },
+    {
+      "id": "026-housing-19861f",
+      "role": "test",
+      "rfp_sha256": "0eb860bdfb272a48c3867e22635866a391d31af1453c9b32e6915878a960b656",
+      "project": "Housing repairs triage",
+      "persona": "operations_manual"
+    },
+    {
+      "id": "027-justice-81dc5a",
+      "role": "test",
+      "rfp_sha256": "42097aba21fd966a01b3e8eb569e0ebaf8240582348cc1a1996d0a663df7c339",
+      "project": "Legal aid eligibility",
+      "persona": "table_matrix"
+    },
+    {
+      "id": "028-agriculture-48c3bc",
+      "role": "test",
+      "rfp_sha256": "f0122c36b698c3ce9ace6c0c95685cda0f17463f05e2247c1362f01a4f6f4823",
+      "project": "Crop disease surveillance",
+      "persona": "risk_dossier"
+    },
+    {
+      "id": "029-culture-c69b45",
+      "role": "test",
+      "rfp_sha256": "3ce6d3a601a5968a9428cdcc6a65d17b788c464eddf20f6bf29818f8c33c2f5a",
+      "project": "Performing arts residencies",
+      "persona": "dialogue_record"
+    },
+    {
+      "id": "030-waste-b8cabb",
+      "role": "test",
+      "rfp_sha256": "bab5605cd02693f4349b489f052d477dffbaa54bcb20c7964a918d9820d40eaf",
+      "project": "Reuse centre inventory",
+      "persona": "milestone_plan"
+    },
+    {
+      "id": "031-public_safety-8eeb41",
+      "role": "test",
+      "rfp_sha256": "da38d5b33a334671333075410ab52aac8516122e6bedd6d5b5c441bbf647dcf3",
+      "project": "Civil warning subscriptions",
+      "persona": "interface_contract"
+    },
+    {
+      "id": "032-social_care-561432",
+      "role": "test",
+      "rfp_sha256": "36de83e87262be69e94427f1f7e58f06d7f0be8a22a9f04ef7ba09b88c0e95c5",
+      "project": "Foster placement matching",
+      "persona": "assurance_case"
+    },
+    {
+      "id": "033-commerce-950c77",
+      "role": "test",
+      "rfp_sha256": "fb97de7762190edd5622b90515d52884db28a86af37ccaff1a384b01fbe2098f",
+      "project": "Export advice vouchers",
+      "persona": "field_notes"
+    },
+    {
+      "id": "034-science-ec68c1",
+      "role": "test",
+      "rfp_sha256": "ab71b5a53bc22d4880926e1e8d4a335b0391913b3f5aa6d6ec1934eaa709cf9e",
+      "project": "Telescope observation scheduling",
+      "persona": "board_paper"
+    },
+    {
+      "id": "035-ports-d2458d",
+      "role": "test",
+      "rfp_sha256": "30d5a2c595aaf43f4de79e28b04668e305a18adda28f72c3b60d2f3223799964",
+      "project": "Container examination bookings",
+      "persona": "user_stories"
+    },
+    {
+      "id": "036-finance-030a1f",
+      "role": "test",
+      "rfp_sha256": "9f567aca5833fe467d1fd04ae8547dc9f0be2e0714e70b54638d396fb12058cb",
+      "project": "Supplier invoice matching",
+      "persona": "migration_playbook"
+    },
+    {
+      "id": "037-planning-d7d0a1",
+      "role": "test",
+      "rfp_sha256": "aac4b0b7965068c6fdc888e1f8e5b88ac03e1c30e2130c6e04d66f1e05f153dc",
+      "project": "Building control inspections",
+      "persona": "formal_tender"
+    },
+    {
+      "id": "038-tourism-0b9487",
+      "role": "test",
+      "rfp_sha256": "3ad8f07cfd8a6988ec03eefb579af0f0d5c3b672b6b65711180487d6fc252de4",
+      "project": "Short-stay accommodation register",
+      "persona": "outcome_brief"
+    },
+    {
+      "id": "039-sport-6cf9c8",
+      "role": "test",
+      "rfp_sha256": "a73c087c4ff4cb114f3e81f6ea201443037564468e4855207bdc5edfbd573015",
+      "project": "Community pitch booking",
+      "persona": "engineering_spec"
+    },
+    {
+      "id": "040-libraries-4cf099",
+      "role": "test",
+      "rfp_sha256": "1cf68ad01fe77a16e5c3b040735ba7ffafe98473452ed6de18ee736f599c5469",
+      "project": "Digital lending licences",
+      "persona": "service_charter"
+    },
+    {
+      "id": "041-healthcare-01e5a8",
+      "role": "test",
+      "rfp_sha256": "7aa76737d816a3f36f38c4b5f16c9d2fb464b964a75398612c5a613f1f5b30df",
+      "project": "Pathology specimen tracking",
+      "persona": "decision_memo"
+    },
+    {
+      "id": "042-transport-019347",
+      "role": "test",
+      "rfp_sha256": "9d76f7f44b63525105cc8886ba12fe8e970efa4f6c4aacbe9e9929f356fa5aad",
+      "project": "Accessible demand-responsive travel",
+      "persona": "work_order"
+    },
+    {
+      "id": "043-energy-85bb29",
+      "role": "test",
+      "rfp_sha256": "d279f52ad4f5d02896487019525c686234b88fe0a6e99f343b78c7bcd2255c30",
+      "project": "Wind maintenance permits",
+      "persona": "operations_manual"
+    },
+    {
+      "id": "044-water-60aa85",
+      "role": "test",
+      "rfp_sha256": "f9ce64bfdba73c92d7fac092925e69d155637468b71ba5bacef10a6df93c72c0",
+      "project": "Flood-gate operations",
+      "persona": "table_matrix"
+    },
+    {
+      "id": "045-education-08c3fe",
+      "role": "test",
+      "rfp_sha256": "5a9519cf821cd4b07b87331fba010dd7f7806bd3ea0e7913e38e616b56a64ed9",
+      "project": "University research equipment",
+      "persona": "risk_dossier"
+    },
+    {
+      "id": "046-housing-8577fb",
+      "role": "test",
+      "rfp_sha256": "9d36a13e3af56cc2a24768b31f7c5f7244c5d584d89264b3483c73f312b841dc",
+      "project": "Shared-ownership staircasing",
+      "persona": "dialogue_record"
+    },
+    {
+      "id": "047-justice-7f856e",
+      "role": "test",
+      "rfp_sha256": "83f5218788bc1d93d4e35f658e5f8343b90e267ae5086069d1dc1cc0fc5f8377",
+      "project": "Probation appointment planning",
+      "persona": "milestone_plan"
+    },
+    {
+      "id": "048-agriculture-ae9710",
+      "role": "test",
+      "rfp_sha256": "5f84c384c40e7da6c6839c20cad2ef63bc06c3cd83cdb0257f44ac68a6d9ef30",
+      "project": "Farm grant inspections",
+      "persona": "interface_contract"
+    },
+    {
+      "id": "049-culture-f67556",
+      "role": "test",
+      "rfp_sha256": "48f38948b6837244921afe0f2d2253ab5ca29901037a4c31b47f5f52fd735f0f",
+      "project": "Oral history archive",
+      "persona": "assurance_case"
+    },
+    {
+      "id": "050-waste-fd83fa",
+      "role": "test",
+      "rfp_sha256": "1f084d43dfbcb67897a1184d56fd2538f42c4b26ee3550126fa1c027634191dd",
+      "project": "Food waste collection",
+      "persona": "field_notes"
+    },
+    {
+      "id": "051-public_safety-806ca3",
+      "role": "test",
+      "rfp_sha256": "b2440799d56939e2af955fd2a7104db0b2a7286af1be540817867a1c853f878a",
+      "project": "Fire inspection scheduling",
+      "persona": "board_paper"
+    },
+    {
+      "id": "052-social_care-2e8200",
+      "role": "test",
+      "rfp_sha256": "78841432127792979b24cd83677db17987fe06616dd972fc6245c3b8efe52b7d",
+      "project": "Disability equipment loans",
+      "persona": "user_stories"
+    },
+    {
+      "id": "053-commerce-bdf584",
+      "role": "test",
+      "rfp_sha256": "70decd4cbe2ccf340b9ff6efdcfead53ade67cdcc85f09d7807898e9535b72b3",
+      "project": "Food premises registration",
+      "persona": "migration_playbook"
+    },
+    {
+      "id": "054-science-266533",
+      "role": "test",
+      "rfp_sha256": "8a5fa0d7d6932e576769e160f2a468d72523461286dc16b491066247c4821c97",
+      "project": "Environmental sensor calibration",
+      "persona": "formal_tender"
+    },
+    {
+      "id": "055-ports-73f3c5",
+      "role": "test",
+      "rfp_sha256": "b4f54f3f611034251afaa9d7868ae22e44563989780dae755cb519c25aad3e5f",
+      "project": "Shore power reservations",
+      "persona": "outcome_brief"
+    },
+    {
+      "id": "056-finance-ca3a8c",
+      "role": "test",
+      "rfp_sha256": "d62623be9752ea38308f5694b22710e78fe37ee5bf35a78cf7b601c6d96052b3",
+      "project": "Participatory budgeting",
+      "persona": "engineering_spec"
+    },
+    {
+      "id": "057-planning-db3b1c",
+      "role": "test",
+      "rfp_sha256": "6f6055f66d8c18f8760419dad4472f599edc3cd71d8727a1e898c42a90548d53",
+      "project": "Public consultation submissions",
+      "persona": "service_charter"
+    },
+    {
+      "id": "058-tourism-c5b885",
+      "role": "test",
+      "rfp_sha256": "b77fa0cf008a63fb3f000a76d70ba73db186034a8b49bbdcd57694ba90c54380",
+      "project": "Protected trail permits",
+      "persona": "legal_schedule"
+    },
+    {
+      "id": "059-sport-8d522f",
+      "role": "test",
+      "rfp_sha256": "a1f392ee8047591ac05b96a9c816c029952e695175b6ec4ae413db0c28e971f0",
+      "project": "Athlete travel support",
+      "persona": "product_backlog"
+    },
+    {
+      "id": "060-libraries-21d680",
+      "role": "test",
+      "rfp_sha256": "8f9acdb54df57a7a15ef5ea758244a9cc353198c6076f717f366d08cf8f89d9e",
+      "project": "Local studies digitisation",
+      "persona": "questionnaire"
+    },
+    {
+      "id": "061-healthcare-997ef8",
+      "role": "test",
+      "rfp_sha256": "287986c3884fe0ce772f9456f7af92b70e57b54a0a33ecd637e3a095b21df666",
+      "project": "Home dialysis support",
+      "persona": "table_matrix"
+    },
+    {
+      "id": "062-transport-f6ae21",
+      "role": "test",
+      "rfp_sha256": "1ddaa1a56fcf82bfdbbf619aff3a9fee5b2991000898f5b9e68de096b4ee224f",
+      "project": "Ferry berth allocation",
+      "persona": "risk_dossier"
+    },
+    {
+      "id": "063-energy-1222ae",
+      "role": "test",
+      "rfp_sha256": "6af5a0a44ba03f6c74424416b08e42561db5130a4e5c6f4ceda7e639be871fbd",
+      "project": "Grid connection applications",
+      "persona": "dialogue_record"
+    },
+    {
+      "id": "064-water-d0e3f9",
+      "role": "test",
+      "rfp_sha256": "8951528a4f1b3faa8afc4f2e31c9d591cc16c29a1b502fa6030eff2d5bd45900",
+      "project": "Irrigation entitlement trading",
+      "persona": "milestone_plan"
+    },
+    {
+      "id": "065-education-cc7269",
+      "role": "test",
+      "rfp_sha256": "f7f0b603159a4efdd409b58bfec6fb32bee595dfbce1e7b3572300f4c5a91db6",
+      "project": "Adult language assessment",
+      "persona": "interface_contract"
+    },
+    {
+      "id": "066-housing-2033ab",
+      "role": "test",
+      "rfp_sha256": "eff420ad325801ebf592bdeab11992f795acfe714e698ba5d0534382988156b8",
+      "project": "Building safety evidence",
+      "persona": "assurance_case"
+    },
+    {
+      "id": "067-justice-c411cf",
+      "role": "test",
+      "rfp_sha256": "5ac1ec687bae7aa2794669087567ed1ff7438c74b1ab038719257ef7b611fffb",
+      "project": "Digital evidence disclosure",
+      "persona": "field_notes"
+    },
+    {
+      "id": "068-agriculture-4824a1",
+      "role": "test",
+      "rfp_sha256": "9302cf71c15cfa903b905ed3f9d18687ec9ea53fd207c4048e87279d19edb5b0",
+      "project": "Seed lot certification",
+      "persona": "board_paper"
+    },
+    {
+      "id": "069-culture-23ff23",
+      "role": "test",
+      "rfp_sha256": "8864daf5ff08ea3e7ad5252231d5682c5d024fa8fe1bd13c3a0f4a63dbb84f56",
+      "project": "Heritage conservation grants",
+      "persona": "user_stories"
+    },
+    {
+      "id": "070-waste-ed1f80",
+      "role": "test",
+      "rfp_sha256": "470f8913c219c6a5aff8e3a1fc4f9d4dfef9d3a464e1152a4eec051ae7f03331",
+      "project": "Landfill aftercare monitoring",
+      "persona": "migration_playbook"
+    },
+    {
+      "id": "071-public_safety-ecbf66",
+      "role": "test",
+      "rfp_sha256": "352ec058e6cf2021dc77afd42ebaff6d1659cd9eb87e2f0fbfac174d12ea3ef9",
+      "project": "Emergency volunteer mobilisation",
+      "persona": "formal_tender"
+    },
+    {
+      "id": "072-social_care-1c2836",
+      "role": "test",
+      "rfp_sha256": "8ed69e1259c9bac4cdee34f97c2fc6d62439b737a456ee410933e47685d15494",
+      "project": "Unpaid carer respite",
+      "persona": "outcome_brief"
+    },
+    {
+      "id": "073-commerce-88668b",
+      "role": "test",
+      "rfp_sha256": "0228b5d0e39fb87ea35adfb2a8dbb6dbdd12c59b7ba697a397309a82765d1e1d",
+      "project": "Local supplier marketplace",
+      "persona": "engineering_spec"
+    },
+    {
+      "id": "074-science-399d16",
+      "role": "test",
+      "rfp_sha256": "69e9c6308e57360ea4fbe93ee7706dcd028ff36cebd765be26e6e8a7098f795b",
+      "project": "Clinical trial recruitment",
+      "persona": "service_charter"
+    },
+    {
+      "id": "075-ports-69db19",
+      "role": "test",
+      "rfp_sha256": "c67c5185343985a6c91e42971dee98484b44c920f8f26edb6d0e51314097ced6",
+      "project": "Dredging consent tracking",
+      "persona": "legal_schedule"
+    },
+    {
+      "id": "076-finance-438362",
+      "role": "test",
+      "rfp_sha256": "2d979b1d85edf85a198118261ba16b9a8a1c88082df0aac75b95a88ea0456369",
+      "project": "Travel expense claims",
+      "persona": "product_backlog"
+    },
+    {
+      "id": "077-planning-7188db",
+      "role": "test",
+      "rfp_sha256": "420f9347b099077251857efdd142f818255c226a137f64ee44f19336489e33fd",
+      "project": "Developer contribution obligations",
+      "persona": "questionnaire"
+    },
+    {
+      "id": "078-tourism-67cc30",
+      "role": "test",
+      "rfp_sha256": "5a83473c06b174ed5dd1b39fbafc16ba08c0673985282af286b905fbd2794a2f",
+      "project": "Tourism levy reconciliation",
+      "persona": "decision_memo"
+    },
+    {
+      "id": "079-sport-d9fe80",
+      "role": "test",
+      "rfp_sha256": "0f8ca24457f5d04603dbee361ae1542e24ee904567594d43eea235dc081818c2",
+      "project": "Anti-doping sample logistics",
+      "persona": "work_order"
+    },
+    {
+      "id": "080-libraries-6f937e",
+      "role": "test",
+      "rfp_sha256": "30c9ad34698aa1ed4620fc442de569186cf741e4b6d6d7251fe55889e33d8260",
+      "project": "Library room access",
+      "persona": "operations_manual"
+    },
+    {
+      "id": "081-healthcare-6ad8fc",
+      "role": "test",
+      "rfp_sha256": "eb121eaf6754cec2724c1ebfc23970ae54493fa990b409c724fd6277b010a47f",
+      "project": "Community mental-health referrals",
+      "persona": "milestone_plan"
+    },
+    {
+      "id": "082-transport-44f705",
+      "role": "test",
+      "rfp_sha256": "a8bb192673c5f99cbf3b703d09494620ff18eab321b62861e68c0e48ff14f967",
+      "project": "School-route assurance",
+      "persona": "interface_contract"
+    },
+    {
+      "id": "083-energy-3dc673",
+      "role": "test",
+      "rfp_sha256": "b20ea0cc50f749f613c18900c179fb915a5c2f654372849cebc0676738fb5335",
+      "project": "Public building energy retrofit",
+      "persona": "assurance_case"
+    },
+    {
+      "id": "084-water-5772e5",
+      "role": "test",
+      "rfp_sha256": "cfda6dbdc20ff7333cdfe283eb2c8e2f488e4bed2e6454b27ac3cc59dc3fe29f",
+      "project": "Wastewater discharge permits",
+      "persona": "field_notes"
+    },
+    {
+      "id": "085-education-5f611e",
+      "role": "test",
+      "rfp_sha256": "00647bb1d0bd0ddb56c6043abcd86e88e3dfe2da40bfd146d665f77f152e8074",
+      "project": "School meal subscriptions",
+      "persona": "board_paper"
+    },
+    {
+      "id": "086-housing-66ce29",
+      "role": "test",
+      "rfp_sha256": "445f239b4b6c71211afffd57204a943284a995943eba331ddf10d0637ddce4cc",
+      "project": "Rental deposit mediation",
+      "persona": "user_stories"
+    },
+    {
+      "id": "087-justice-c8e45a",
+      "role": "test",
+      "rfp_sha256": "2db3ff9f4f1e73c5d2d9506fa105f72781421d0c1cf595c122cc7dd18bceb5d9",
+      "project": "Restorative justice referrals",
+      "persona": "migration_playbook"
+    },
+    {
+      "id": "088-agriculture-f639ad",
+      "role": "test",
+      "rfp_sha256": "70c913d93257b3d28c33b06d4374e243db6859cfe17b0ef0639b17ad1f02c3c9",
+      "project": "Organic producer audits",
+      "persona": "formal_tender"
+    },
+    {
+      "id": "089-culture-ca62a6",
+      "role": "test",
+      "rfp_sha256": "1dff8ae2ebc4df78c7f1dfcd137704a80a0ac71bde222e2ac8d67ae77ef2f129",
+      "project": "Film location permits",
+      "persona": "outcome_brief"
+    },
+    {
+      "id": "090-waste-699ebe",
+      "role": "test",
+      "rfp_sha256": "f5dc11fd19362dadf783ce341ab9850dbf086f118cf257dfc4a3d9ff0685a088",
+      "project": "Construction material exchange",
+      "persona": "engineering_spec"
+    },
+    {
+      "id": "091-public_safety-045329",
+      "role": "test",
+      "rfp_sha256": "67ca3e9fa00f6f9a4eb71934cfc53c840fe7aa43e9f85cf5de02db50d88c4656",
+      "project": "Public-event safety permits",
+      "persona": "service_charter"
+    },
+    {
+      "id": "092-social_care-02387e",
+      "role": "test",
+      "rfp_sha256": "fec208ec8fed8c07e04fbcbd25fca32499c9f9d0c0143eed0647bdc4d407d9d8",
+      "project": "Adult safeguarding referrals",
+      "persona": "legal_schedule"
+    },
+    {
+      "id": "093-commerce-824856",
+      "role": "test",
+      "rfp_sha256": "65f2fac66c590dbe6559910cca57d5cff431603b06c1b917ad136693f44dd7e9",
+      "project": "Consumer complaint mediation",
+      "persona": "product_backlog"
+    },
+    {
+      "id": "094-science-b2a6bd",
+      "role": "test",
+      "rfp_sha256": "387c51f4243f88e3b5c38f68f6d436b16bfb6d97881d6a562fcf0bcd5e9eca6d",
+      "project": "Research data stewardship",
+      "persona": "questionnaire"
+    },
+    {
+      "id": "095-ports-96a384",
+      "role": "test",
+      "rfp_sha256": "a36600eb8e2f1ca05f74f8d023079751f170890273dd5a2b7df82dc834fe2b6f",
+      "project": "Marina visitor moorings",
+      "persona": "decision_memo"
+    },
+    {
+      "id": "096-finance-9bc8b4",
+      "role": "test",
+      "rfp_sha256": "c58f8afe16c5667e57971e403f1614ad040bc03ece60e35e73f44bbe3477270f",
+      "project": "Small charity grant payments",
+      "persona": "work_order"
+    },
+    {
+      "id": "097-planning-bcf866",
+      "role": "test",
+      "rfp_sha256": "0c681dcc200d83c3b5e1131e4064121bcf7bbf4ca66cfa8b563a6cf0763ada7a",
+      "project": "Brownfield land remediation",
+      "persona": "operations_manual"
+    },
+    {
+      "id": "098-tourism-598354",
+      "role": "test",
+      "rfp_sha256": "5e60adf1599e62751f4326a5afb02ff744da29634d22cacd1148898a83d4136e",
+      "project": "Destination event calendar",
+      "persona": "table_matrix"
+    },
+    {
+      "id": "099-sport-4588ec",
+      "role": "test",
+      "rfp_sha256": "a2846002554f759f46bee0f84ecd59c1802f750a5b4f4d913878045d4be532b4",
+      "project": "Adaptive sports equipment",
+      "persona": "risk_dossier"
+    },
+    {
+      "id": "100-libraries-6d55f9",
+      "role": "test",
+      "rfp_sha256": "c0c04d78128fb572fadbe9c9e87dcc2f31d811c6cfc1001de10fc9786de5d387",
+      "project": "Interlibrary loan fulfilment",
+      "persona": "dialogue_record"
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "fixture_id": "045-education-08c3fe",
+  "generator": {
+    "version": "3.0-en",
+    "index": 45,
+    "role": "test"
+  },
+  "mutants": [
+    {
+      "id": "M01",
+      "kind": "contradiction",
+      "label": "authentication",
+      "keywords_any": [
+        "authentication",
+        "offline"
+      ],
+      "refs": [
+        "A-01",
+        "P-15"
+      ],
+      "template": "authentication",
+      "severity": "critical"
+    },
+    {
+      "id": "M02",
+      "kind": "hidden_requirement",
+      "label": "hardware",
+      "keywords_any": [
+        "hardware",
+        "device"
+      ],
+      "refs": [
+        "P-14"
+      ],
+      "template": "hardware",
+      "severity": "major"
+    },
+    {
+      "id": "M03",
+      "kind": "legacy_unknown",
+      "label": "integration inventory",
+      "keywords_any": [
+        "integration",
+        "inventory"
+      ],
+      "refs": [
+        "P-18"
+      ],
+      "template": "integration_inventory",
+      "severity": "major"
+    },
+    {
+      "id": "M04",
+      "kind": "ambiguity",
+      "label": "acceptance",
+      "keywords_any": [
+        "acceptance",
+        "approve"
+      ],
+      "refs": [
+        "A-02"
+      ],
+      "template": "acceptance",
+      "severity": "major"
+    },
+    {
+      "id": "M05",
+      "kind": "contradiction",
+      "label": "deadline",
+      "keywords_any": [
+        "deadline",
+        "rollout"
+      ],
+      "refs": [
+        "A-03",
+        "P-12"
+      ],
+      "template": "deadline",
+      "severity": "critical"
+    },
+    {
+      "id": "M06",
+      "kind": "contradiction",
+      "label": "retention",
+      "keywords_any": [
+        "retention",
+        "delete"
+      ],
+      "refs": [
+        "A-04",
+        "P-04"
+      ],
+      "template": "retention",
+      "severity": "critical"
+    },
+    {
+      "id": "M07",
+      "kind": "risk",
+      "label": "manual override",
+      "keywords_any": [
+        "override",
+        "audit"
+      ],
+      "refs": [
+        "P-16"
+      ],
+      "template": "manual_override",
+      "severity": "major"
+    },
+    {
+      "id": "M08",
+      "kind": "ambiguity",
+      "label": "indexation",
+      "keywords_any": [
+        "indexation",
+        "inflation"
+      ],
+      "refs": [
+        "A-05"
+      ],
+      "template": "indexation",
+      "severity": "major"
+    },
+    {
+      "id": "M09",
+      "kind": "contradiction",
+      "label": "residency",
+      "keywords_any": [
+        "residency",
+        "region"
+      ],
+      "refs": [
+        "A-06",
+        "P-03"
+      ],
+      "template": "residency",
+      "severity": "critical"
+    },
+    {
+      "id": "M10",
+      "kind": "ambiguity",
+      "label": "performance",
+      "keywords_any": [
+        "performance",
+        "latency"
+      ],
+      "refs": [
+        "P-20"
+      ],
+      "template": "performance",
+      "severity": "major"
+    },
+    {
+      "id": "M11",
+      "kind": "legacy_unknown",
+      "label": "source access",
+      "keywords_any": [
+        "source",
+        "unknown"
+      ],
+      "refs": [
+        "P-13"
+      ],
+      "template": "source_access",
+      "severity": "major"
+    },
+    {
+      "id": "M12",
+      "kind": "risk",
+      "label": "shared identity",
+      "keywords_any": [
+        "shared",
+        "account"
+      ],
+      "refs": [
+        "A-07"
+      ],
+      "template": "shared_identity",
+      "severity": "major"
+    },
+    {
+      "id": "M13",
+      "kind": "brownfield_signal",
+      "label": "batch dependency",
+      "keywords_any": [
+        "batch",
+        "dependency"
+      ],
+      "refs": [
+        "P-10"
+      ],
+      "template": "batch_dependency",
+      "severity": "major"
+    },
+    {
+      "id": "M14",
+      "kind": "hidden_requirement",
+      "label": "on call",
+      "keywords_any": [
+        "on-call",
+        "staff"
+      ],
+      "refs": [
+        "P-01"
+      ],
+      "template": "on_call",
+      "severity": "major"
+    },
+    {
+      "id": "M15",
+      "kind": "hidden_requirement",
+      "label": "printed notices",
+      "keywords_any": [
+        "print",
+        "notice"
+      ],
+      "refs": [
+        "P-19"
+      ],
+      "template": "printed_notices",
+      "severity": "major"
+    }
+  ],
+  "controls": [
+    {
+      "id": "C01",
+      "label": "Accessible digital interfaces",
+      "keywords_any": [
+        "accessibility",
+        "301 549"
+      ],
+      "ref": "P-11"
+    },
+    {
+      "id": "C02",
+      "label": "Personal data safeguards",
+      "keywords_any": [
+        "personal data",
+        "processor"
+      ],
+      "ref": "P-09"
+    }
+  ],
+  "decoys": [
+    {
+      "id": "D01",
+      "label": "Valid requirement: recovery_target",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "recovery",
+        "target"
+      ],
+      "refs": [
+        "A-08"
+      ]
+    },
+    {
+      "id": "D02",
+      "label": "Valid requirement: open_exports",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "export",
+        "format"
+      ],
+      "refs": [
+        "A-09"
+      ]
+    },
+    {
+      "id": "D03",
+      "label": "Valid requirement: release_testing",
+      "kind": "ambiguity",
+      "keywords_any": [
+        "regression",
+        "environment"
+      ],
+      "refs": [
+        "A-10"
+      ]
+    }
+  ],
+  "covariates": {
+    "domain": "education",
+    "project": "University research equipment",
+    "client": "University research equipment commissioning partnership",
+    "persona": "risk_dossier",
+    "department": "Risk-bearing obligations",
+    "register": "English",
+    "stack": "vendor SaaS with CSV exports",
+    "conditions_anchor": "P-07",
+    "n_anchors": 30,
+    "n_sections": 2,
+    "generation_attempt": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "documents": 101,
+    "pairs": 5050,
+    "identical_heading_pairs": 0,
+    "identical_kind_sequence_pairs": 0,
+    "identical_template_set_pairs": 0,
+    "five_gram_similarity": {
+      "min": 0.0189,
+      "mean": 0.0586,
+      "max": 0.1907
+    },
+    "most_similar_pair": [
+      "006-housing-1ade3c",
+      "060-libraries-21d680"
+    ]
+  },
+  "thresholds_passed": true,
+  "limitations": [
+    "Synthetic shared templates, not independent human authors.",
+    "English v3 is not the corpus evaluated in the historical article.",
+    "Structural diversity does not establish statistical independence."
+  ]
+}
