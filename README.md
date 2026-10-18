@@ -194,7 +194,7 @@ The public corpus is not a secret test set: it may be memorized or contaminated.
 For a new blind study, generate and seal a fresh private corpus and arrange
 independent human review before executing.
 
-## Generate a new English study
+## Generate a new study
 
 Generation itself does not contact providers:
 
@@ -217,10 +217,6 @@ seed changes issue selection and phrasing, not the catalogue of project themes.
 The optional [schedule generator](benchmark_v2/analysis/make_schedule.py) is a
 planning utility; the default runner does not consume that schedule.
 
-## Publish the source
+## License
 
-Publish **this directory's contents**, not the parent workspace. Review staged
-files; [.gitignore](.gitignore) excludes common outputs, environments and logs
-but is not a substitute for checking credentials and execution artifacts.
-The code does not create or push a remote repository. The copyright holder
-must choose a license before offering explicit reuse permissions.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
